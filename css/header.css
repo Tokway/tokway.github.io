@@ -1,0 +1,137 @@
+* {
+    line-height: 1.15;
+    margin: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+    color: var(--title-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--extra-title-color);
+    text-decoration: none;
+}
+
+:root {
+    --title-color:#CDDEFF;
+    --extra-title-color: #F40102;
+
+}
+
+.header {
+    background-color: #010E17;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+    height: auto;
+    max-width: 1400px;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.navbar__logo-img {
+    width: 15%;
+}
+
+.navbar__li {
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    display: flex;
+    color: var(--title-color);
+}
+
+.header__dash{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.dash {
+    min-width: 100%; 
+    min-height: 100%; 
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    height: 5px;
+    width: auto;
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 680px;
+    max-width: 1080;
+    margin: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url("/img/header-content-img-dark-blue.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__content-text {
+
+    width: 30%;
+    margin-left: 150px;
+    margin-right: -150px;
+}
+
+.header__content-text-title {
+    color: var(--extra-title-color);
+    opacity: 70%;
+    font-weight: 900;
+    font-size: 4em;
+    margin: 20px auto;
+}
+
+.header__content-text-discription {
+    color: var(--title-color);
+    font-size: 1.3em;
+}
+
+
+.header__content-img-img {
+    max-width: 950px;
+}
+
+.header__sponsors {
+    display: flex;
+    background-color: #010B17;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__sponsors-img {
+    max-width: 85%;
+}
+
+.header__content-button{
+    cursor:crosshair;
+    color:var(--extra-title-color);
+    font-size: 1em;
+    font-weight:900;
+    border:0 !important;
+    padding: 1em 3em;
+    margin:4em 20px;
+    background:var(--title-color);
+    display:block;
+    width: 200px;
+    height:50px;
+    transition: border-radius .5s, background 1s, transform .5s;
+  }
+  
+  .header__content-button:hover{
+    color: var(--title-color);
+    background:var(--extra-title-color);
+    transform: scale(1.1);
+    border-radius: 25px;
+  }

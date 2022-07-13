@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+}
+
+:root {
+    --title-color:#CDDEFF;
+    --extra-title-color: #F40102;
+
+}
+
+.footer {
+    background-image: url(/img/background_photo.png);
+    display: flex;
+    min-width: 100%;
+}
+
+.footer__content {    
+    display: flex;
+    text-align: center;
+    margin: 0px auto;
+    align-items: center;
+    justify-items: center;
+    color: var(--title-color);
+    height: 100px;
+    
+    
+}
+
+.footer_copyright {
+    display: flex;
+    align-items: center;
+
+}
